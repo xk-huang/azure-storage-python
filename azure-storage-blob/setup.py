@@ -43,7 +43,7 @@ except ImportError:
     pass
 
 setup(
-    name='azure-storage-blob',
+    name='azure-storage-blob4azfuse',
     version='2.1.0',
     description='Microsoft Azure Storage Blob Client Library for Python',
     long_description=open('README.rst', 'r').read(),
