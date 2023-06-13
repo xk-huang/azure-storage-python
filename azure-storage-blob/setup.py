@@ -68,7 +68,7 @@ setup(
     packages=find_packages(exclude=[
         # Exclude packages that will be covered by PEP420 or nspkg
         'azure',
-        'azure.storage',
+        'azure.v1.storage',
     ]),
     install_requires=[
         'azure-common>=1.1.5',
